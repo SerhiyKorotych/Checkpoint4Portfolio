@@ -1,0 +1,44 @@
+.about-me-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+.about-me-title {
+  display: flex;
+  bottom: 20%;
+  left: 14%;
+  position: relative;
+  font-family: "Roboto Mono", monospace;
+}
+
+.about-me-img {
+  width: 150px;
+  height: 150px;
+  box-shadow: rgba(4, 12, 4, 0.4) 5px 5px, rgba(0, 51, 5, 0.3) 10px 10px,
+    rgba(15, 41, 9, 0.2) 15px 15px, rgba(1, 36, 1, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+  margin-right: 5%;
+  border-radius: 25px;
+}
+.about-me-p {
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.about-me-description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 500px;
+  height: 200px;
+  border: outset 5px rgb(6, 90, 4);
+  box-shadow: yellowgreen;
+  padding: 1%;
+  background-color: black;
+  opacity: 0.9;
+  font-family: "Roboto Mono", monospace;
+}
