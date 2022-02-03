@@ -11,17 +11,14 @@ function CallNav() {
             SK
           </ReactBootstrap.Navbar.Brand>
           <ReactBootstrap.Nav className="me-auto">
-            <ReactBootstrap.Nav.Link href="#home">Home</ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="#aboutme">
+            <ReactBootstrap.Nav.Link href="/">Home</ReactBootstrap.Nav.Link>
+            <ReactBootstrap.Nav.Link href="/aboutme">
               About me
             </ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="#experiences">
-              Experiences
-            </ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="#projects">
+            <ReactBootstrap.Nav.Link href="/projects">
               Projects
             </ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="#contacts">
+            <ReactBootstrap.Nav.Link href="/contact">
               Contact me
             </ReactBootstrap.Nav.Link>
           </ReactBootstrap.Nav>
